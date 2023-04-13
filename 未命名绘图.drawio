@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T13:13:09.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2VBM60JDGu07F_prz-AY" version="21.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-13T13:16:22.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="XepHfvA4O4qIBeif-Jov" version="21.1.7" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="4861" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1101,17 +1101,14 @@
         <mxCell id="IoooQXpvlGesZsY-Bxuq-4" value="入库" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="160" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IoooQXpvlGesZsY-Bxuq-5" value="订货处理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IoooQXpvlGesZsY-Bxuq-5" value="处理订货" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="250" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IoooQXpvlGesZsY-Bxuq-6" value="采购员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="400" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IoooQXpvlGesZsY-Bxuq-7" value="获取订货报表" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="390" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="IoooQXpvlGesZsY-Bxuq-8" value="订货处理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="390" width="140" height="70" as="geometry" />
+        <mxCell id="IoooQXpvlGesZsY-Bxuq-8" value="获取订货报表" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IoooQXpvlGesZsY-Bxuq-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IoooQXpvlGesZsY-Bxuq-1" target="IoooQXpvlGesZsY-Bxuq-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1136,13 +1133,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="130" y="140" as="sourcePoint" />
             <mxPoint x="240" y="145" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IoooQXpvlGesZsY-Bxuq-16" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="IoooQXpvlGesZsY-Bxuq-8" target="IoooQXpvlGesZsY-Bxuq-7" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="359" y="170" as="sourcePoint" />
-            <mxPoint x="480" y="205" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IoooQXpvlGesZsY-Bxuq-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="IoooQXpvlGesZsY-Bxuq-5" target="IoooQXpvlGesZsY-Bxuq-2" edge="1">
@@ -1282,9 +1272,6 @@
         </mxCell>
         <mxCell id="mDhMsNXa8r43g7x076R1-38" value="extend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="200" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mDhMsNXa8r43g7x076R1-39" value="include" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
