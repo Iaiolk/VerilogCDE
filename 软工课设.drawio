@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T13:30:01.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ogk_dxymurvwW-TfIrKo" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-08T13:39:00.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bevjQjTsnX7hceWhZt05" version="21.2.9" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2921" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -193,7 +193,7 @@
           <mxGeometry x="1343" y="100" width="40" height="390" as="geometry" />
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
-          <mxGeometry x="1548" y="640" width="40" height="300" as="geometry" />
+          <mxGeometry x="1548" y="640" width="40" height="390" as="geometry" />
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-8" value="登录+定义数据模式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="20" width="140" height="30" as="geometry" />
@@ -297,19 +297,19 @@
         <mxCell id="6zP1surcg9dPpU2-RCiG-30" value="查询数据模式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="871" y="560" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-31" value="后台+数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1324" y="600" width="90" height="30" as="geometry" />
+        <mxCell id="6zP1surcg9dPpU2-RCiG-31" value="后台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="600" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-36" value="点击查询页面按钮" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1016" y="740" as="sourcePoint" />
-            <mxPoint x="1096" y="740" as="targetPoint" />
+            <mxPoint x="1015" y="710" as="sourcePoint" />
+            <mxPoint x="1095" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-37" value="显示客户端解析的表（仿navicat）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1095" y="800" as="sourcePoint" />
-            <mxPoint x="1015" y="800" as="targetPoint" />
+            <mxPoint x="1095" y="820" as="sourcePoint" />
+            <mxPoint x="1015" y="820" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -321,8 +321,8 @@
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-39" value="根据管理员权限查询表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1220" y="750" as="sourcePoint" />
-            <mxPoint x="1300" y="750" as="targetPoint" />
+            <mxPoint x="1220" y="720" as="sourcePoint" />
+            <mxPoint x="1300" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-40" value="返回失败或表数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
@@ -340,11 +340,11 @@
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-42" value="表信息或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="790" as="sourcePoint" />
-            <mxPoint x="1220" y="790" as="targetPoint" />
+            <mxPoint x="1300" y="800" as="sourcePoint" />
+            <mxPoint x="1220" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-43" value="查询表内数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="6zP1surcg9dPpU2-RCiG-43" value="查询被点击表的表内数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1210" y="880" as="sourcePoint" />
             <mxPoint x="1290" y="880" as="targetPoint" />
@@ -368,8 +368,8 @@
         <mxCell id="6zP1surcg9dPpU2-RCiG-49" value="修改数据模式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="869.5" y="1060" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-50" value="后台+数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1322.5" y="1100" width="90" height="30" as="geometry" />
+        <mxCell id="6zP1surcg9dPpU2-RCiG-50" value="后台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1342.5" y="1100" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-51" value="点击修改页面按钮" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -463,6 +463,49 @@
         </mxCell>
         <mxCell id="K-CLstpttQTySyyyU35O-6" value="数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1538" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-10" value="查询该管理员的可访问表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1430" y="730" as="sourcePoint" />
+            <mxPoint x="1510" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-11" value="返回表名称（表ID）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="750" as="sourcePoint" />
+            <mxPoint x="1430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-13" value="查询这些表的字段和表关系" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1430" y="770" as="sourcePoint" />
+            <mxPoint x="1510" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-14" value="返回这些表的字段和表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0123" relative="1" as="geometry">
+            <mxPoint x="1510" y="789.5" as="sourcePoint" />
+            <mxPoint x="1430" y="789.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-17" value="查询该表内所有数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1430" y="890" as="sourcePoint" />
+            <mxPoint x="1510" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-18" value="返回失败或表数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="920" as="sourcePoint" />
+            <mxPoint x="1420" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-19" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1548" y="1140" width="40" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-20" value="数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1538" y="1100" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
