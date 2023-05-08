@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T13:39:00.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bevjQjTsnX7hceWhZt05" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-08T13:43:37.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1Wid-zIfdaB1CJKQb4pg" version="21.2.9" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2921" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -390,7 +390,7 @@
             <mxPoint x="1089.5" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-54" value="根据管理员权限查询表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="6zP1surcg9dPpU2-RCiG-54" value="发送要修改的表的名称" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1218.5" y="1260" as="sourcePoint" />
             <mxPoint x="1298.5" y="1260" as="targetPoint" />
@@ -506,6 +506,31 @@
         </mxCell>
         <mxCell id="K-CLstpttQTySyyyU35O-20" value="数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1538" y="1100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-21" value="查询该表的字段" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1420" y="1270" as="sourcePoint" />
+            <mxPoint x="1500" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-22" value="返回表的字段" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1290" as="sourcePoint" />
+            <mxPoint x="1420" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-24" value="发送修改命令" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1420" y="1430" as="sourcePoint" />
+            <mxPoint x="1500" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CLstpttQTySyyyU35O-26" value="返回成功或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1460" as="sourcePoint" />
+            <mxPoint x="1420" y="1460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
