@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T13:43:37.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1Wid-zIfdaB1CJKQb4pg" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-08T13:45:39.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="g76nHM5rfs7dhGaj-keP" version="21.2.9" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2921" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-3" value="数据填报人" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-320" y="650" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9C5uHUtw3XRIwAUSBdwF-4" value="+ 填报人ID&lt;br&gt;+ 邮箱&lt;br&gt;+ 手机号" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="9C5uHUtw3XRIwAUSBdwF-3" vertex="1">
+        <mxCell id="9C5uHUtw3XRIwAUSBdwF-4" value="+ 填报人ID&lt;br&gt;+ 邮箱（选填）&lt;br&gt;+ 手机号（必填）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="9C5uHUtw3XRIwAUSBdwF-3" vertex="1">
           <mxGeometry y="50" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-5" value="数据管理员组（用户组）" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-33" value="表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1260" y="650" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9C5uHUtw3XRIwAUSBdwF-34" value="+ 表 ID&lt;br&gt;+ 表属性（多值）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="9C5uHUtw3XRIwAUSBdwF-33" vertex="1">
+        <mxCell id="9C5uHUtw3XRIwAUSBdwF-34" value="+ 表 ID&lt;br&gt;+ 表名称" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="9C5uHUtw3XRIwAUSBdwF-33" vertex="1">
           <mxGeometry y="50" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-39" value="限制" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
