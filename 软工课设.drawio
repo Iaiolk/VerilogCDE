@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T08:48:29.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hjpRRf3vCfzpqq2MMTPW" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-08T08:59:38.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="suEIddLCazGy5vWXXPCA" version="21.2.9" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="3200" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -325,16 +325,17 @@
             <mxPoint x="1300" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-40" value="返回失败或成功信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="6zP1surcg9dPpU2-RCiG-40" value="返回失败或表数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1290" y="930" as="sourcePoint" />
             <mxPoint x="1210" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6zP1surcg9dPpU2-RCiG-41" value="返回失败或成功信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="6zP1surcg9dPpU2-RCiG-41" value="返回失败或显示解析的表数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1095" y="950" as="sourcePoint" />
             <mxPoint x="1015" y="950" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6zP1surcg9dPpU2-RCiG-42" value="表信息或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -347,6 +348,90 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1210" y="880" as="sourcePoint" />
             <mxPoint x="1290" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-44" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="959.5" y="1140" width="20" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-45" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1119.5" y="1140" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-46" value="数据管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="929.5" y="1100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-47" value="客户端界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1099.5" y="1100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-48" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1347.5" y="1140" width="40" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-49" value="修改数据模式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="869.5" y="1060" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-50" value="后台+数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1322.5" y="1100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-51" value="点击修改页面按钮" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1011" y="1220" as="sourcePoint" />
+            <mxPoint x="1091" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-52" value="显示客户端解析的表的各字段" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1089.5" y="1330" as="sourcePoint" />
+            <mxPoint x="1009.5" y="1330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-53" value="增删改表的各字段" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1009.5" y="1370" as="sourcePoint" />
+            <mxPoint x="1089.5" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-54" value="根据管理员权限查询表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1218.5" y="1260" as="sourcePoint" />
+            <mxPoint x="1298.5" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-55" value="返回成功或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="1470" as="sourcePoint" />
+            <mxPoint x="1210" y="1470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-56" value="返回成功或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1091" y="1500" as="sourcePoint" />
+            <mxPoint x="1011" y="1500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-57" value="返回表信息或失败信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1298.5" y="1300" as="sourcePoint" />
+            <mxPoint x="1218.5" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-58" value="发送修改数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1210" y="1420" as="sourcePoint" />
+            <mxPoint x="1290" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-59" value="选择要修改的表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1009.5" y="1250" as="sourcePoint" />
+            <mxPoint x="1089.5" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zP1surcg9dPpU2-RCiG-60" value="点击确认修改" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1011" y="1400" as="sourcePoint" />
+            <mxPoint x="1091" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
