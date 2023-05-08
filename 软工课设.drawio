@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T06:45:55.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="sT4duC6wZurZewg5oEdQ" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T06:47:24.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="PrXlQB6ZuIB-iF-5q4Bt" version="21.2.9" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2071" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-3" value="数据填报人" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="580" width="160" height="90" as="geometry" />
+          <mxGeometry x="380" y="580" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9C5uHUtw3XRIwAUSBdwF-4" value="+ 填报人ID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9C5uHUtw3XRIwAUSBdwF-3">
-          <mxGeometry y="50" width="160" height="40" as="geometry" />
+        <mxCell id="9C5uHUtw3XRIwAUSBdwF-4" value="+ 填报人ID&lt;br&gt;+ 邮箱&lt;br&gt;+ 手机号" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9C5uHUtw3XRIwAUSBdwF-3">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9C5uHUtw3XRIwAUSBdwF-5" value="数据管理员组（用户组）" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="120" width="170" height="120" as="geometry" />
