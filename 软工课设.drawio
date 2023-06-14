@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T08:07:19.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="67IWic7s0i7Qxm2Gyrx0" version="21.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-14T13:36:15.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BANfOI0TGd08Nbp2CzhD" version="21.3.8" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2750" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3161" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2O3qAa9MsZX0vWhNaRk7" name="第 2 页">
-    <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,44 +625,97 @@
             <mxPoint x="1220" y="1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-2" value="请求所有表关系" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-2" value="请求所有表关系" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1220" y="1940" as="sourcePoint" />
             <mxPoint x="1300" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-3" value="查询所有的表关系" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-3" value="查询所有的表关系" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1430" y="1950" as="sourcePoint" />
             <mxPoint x="1510" y="1950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-4" value="返回所有表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-4" value="返回所有表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1510" y="1980" as="sourcePoint" />
             <mxPoint x="1430" y="1980" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-5" value="返回所有表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-5" value="返回所有表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1300" y="1990" as="sourcePoint" />
             <mxPoint x="1220" y="1990" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-6" value="显示所有的表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-6" value="显示所有的表关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1096" y="2010" as="sourcePoint" />
             <mxPoint x="1016" y="2010" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRaswLHGn9xdfhBep6BA-7" value="显示所有的表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sRaswLHGn9xdfhBep6BA-7" value="显示所有的表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1096" y="1920" as="sourcePoint" />
             <mxPoint x="1016" y="1920" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-1" target="CmJgl206YfKj_aNhnGhV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-1" target="CmJgl206YfKj_aNhnGhV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-1" value="数据模式定义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-2" target="CmJgl206YfKj_aNhnGhV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-2" value="管理员填写或修改表字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1850" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-3" target="CmJgl206YfKj_aNhnGhV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-3" value="管理员填写或者修改表关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-4" target="CmJgl206YfKj_aNhnGhV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-4" value="检查输入是否有误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-10" value="转换为json格式数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-13" value="请求获取或修改数据库数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1724" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-15" target="CmJgl206YfKj_aNhnGhV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-15" value="显示提示信息（操作成功或失败）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-16" target="CmJgl206YfKj_aNhnGhV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-16" value="显示所有表及其关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="CmJgl206YfKj_aNhnGhV-17" target="CmJgl206YfKj_aNhnGhV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmJgl206YfKj_aNhnGhV-17" value="管理员可视化查看所有表及其关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
