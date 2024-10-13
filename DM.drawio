@@ -139,6 +139,18 @@
             <mxPoint x="400" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-70" value="roll up on location from location_key to city" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="720" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-71" value="roll up on product from product_key to stock_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="780" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-72" value="roll up on date from date_key to year" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="750" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-73" value="dice for city=&#39;Los Angeles&#39;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
