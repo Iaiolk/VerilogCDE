@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="3ccgbEgvmrZUkAs4_G65">
-    <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry y="156" width="140" height="22" as="geometry" />
         </mxCell>
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-31" value="vendor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="460" width="140" height="222" as="geometry" />
+          <mxGeometry x="90" y="460" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-32" value="vendor_key" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -82,23 +82,11 @@
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-33" value="vendor_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-34" value="contact_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-35" value="phone_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-35" value="phone_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-36" value="address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
-          <mxGeometry y="130" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-37" value="country" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
-          <mxGeometry y="156" width="140" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-38" value="state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
-          <mxGeometry y="178" width="140" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-39" value="city" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tXJnp-GCiFo_NJ_1QGvf-31">
-          <mxGeometry y="200" width="140" height="22" as="geometry" />
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-40" value="location" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="495" width="140" height="152" as="geometry" />
@@ -150,6 +138,9 @@
         </mxCell>
         <mxCell id="tXJnp-GCiFo_NJ_1QGvf-73" value="dice for city=&#39;Los Angeles&#39;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="810" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXJnp-GCiFo_NJ_1QGvf-74" value="优点：在上述的数据仓库结构中，对于离散化的数据列来说使用位图索引有很大优势。例如对于location，假设country有{China,Korea,US}，那么可以方便的根据数据存储为100,010,001这样的bit串，可以提升运算效率，节省空间；&lt;div&gt;缺点：但是对于取值种类非常多&lt;span style=&quot;background-color: initial;&quot;&gt;或者连续数据&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;的数据列，例如city中可能有上千个不同的城市，那么最终的数据存储比特串为1000000...会导致稀疏问题，存储有大量的无意义信息，浪费空间；对于频繁更新的列，使用bitmap还会导致较大的时间开销&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="863" width="1330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
